@@ -1,6 +1,6 @@
 # Sass_Portfolio_Page
 
-https://omrfrkcpr.github.io/Sass_Portfolio_Page/index.html
+https://omrfrkcpr.github.io/Sass_Portfolio_Page/
 
 ## Description
 
