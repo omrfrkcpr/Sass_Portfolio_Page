@@ -29,13 +29,13 @@ Sass_Portfolio_Page (folder)
         |----_home.scss
         |----_projects.scss
     |----main.scss
-|----ezgif-3-529bd74e9d.gif
 |----about.html
 |----contact.html
 |----index.html
 |----LICENSE
 |----projects.html
 |----readme.md
+|----sass-potfolio-page.gif
 ```
 
 ## Expected Outcome
