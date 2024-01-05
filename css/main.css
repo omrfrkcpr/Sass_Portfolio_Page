@@ -8,7 +8,7 @@
 .about-bgImg-container {
   height: 50vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../assets/model-1.jpg");
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../assets/about-me-bg-img.jpeg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -49,9 +49,10 @@
 .contact-bgImg-container {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../assets/model-1.jpg");
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../assets/contact-bg-img.avif");
   background-size: cover;
   background-position: center;
+  background-position: top;
 }
 .contact-bgImg-container nav {
   height: 40vh;
@@ -94,11 +95,11 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   text-align: center;
 }
 .home__name {
-  font-size: 5rem;
+  font-size: 4rem;
+  text-align: left;
   padding: 1rem;
   margin-bottom: 1rem;
   border-bottom: 2px solid white;
@@ -108,11 +109,19 @@
   color: red;
   font-weight: 700;
 }
+.home .hi {
+  text-align: left;
+  padding-left: 10rem;
+}
+.home .job {
+  text-align: right;
+  padding: 1rem;
+}
 
 .project-bgImg-container {
   height: 40vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../assets/model-1.jpg");
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../assets/my-projects-bg-img.jpg");
   background-size: cover;
   background-position: center;
   display: flex;

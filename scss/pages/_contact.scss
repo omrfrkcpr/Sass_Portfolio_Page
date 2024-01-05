@@ -3,7 +3,8 @@
 //* ---------------------------------- */
 
 .contact-bgImg-container {
-  @include bgImg(100vh, $pathname1);
+  @include bgImg(100vh, $pathname9);
+  background-position: top;
 
   nav {
     // border: 2px solid red;
