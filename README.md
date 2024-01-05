@@ -1,5 +1,7 @@
 # Sass_Portfolio_Page
 
+https://omrfrkcpr.github.io/Sass_Portfolio_Page/index.html
+
 ## Description
 
 Project aims to create responsive portfolio page with using HTML5 CSS3 and SASS.
@@ -39,6 +41,8 @@ Sass_Portfolio_Page (folder)
 ```
 
 ## Expected Outcome
+
+![sass-portfolio-page](https://github.com/omrfrkcpr/Sass_Portfolio_Page/assets/77440899/59bb069a-168e-44a7-8ac9-f248201b1741)
 
 ## Objective
 
