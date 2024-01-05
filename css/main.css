@@ -145,6 +145,7 @@
   width: 100%;
   cursor: pointer;
   border-bottom: 5px solid #ff652f;
+  overflow: hidden;
   position: relative;
 }
 .projects__item img {
@@ -164,6 +165,19 @@
 }
 .projects__item:hover::after {
   opacity: 0.3;
+}
+.projects__item__info {
+  position: absolute;
+  width: 100%;
+  bottom: 1rem;
+  left: 0;
+  text-align: center;
+  transform: translateY(150%);
+  transition: all 1s;
+  font-size: 3rem;
+}
+.projects__item:hover .projects__item__info {
+  transform: translateY(0);
 }
 
 .link-style a, footer.middle a, footer.vertical .social-icons a, footer.horizontal a {

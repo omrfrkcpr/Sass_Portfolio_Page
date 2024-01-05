@@ -26,6 +26,7 @@
     width: 100%;
     cursor: pointer;
     border-bottom: 5px solid $secondary-color;
+    overflow: hidden;
     position: relative;
 
     img {
@@ -47,6 +48,21 @@
 
     &:hover::after {
       opacity: 0.3;
+    }
+
+    &__info {
+      position: absolute;
+      width: 100%;
+      bottom: 1rem;
+      left: 0;
+      text-align: center;
+      transform: translateY(150%);
+      transition: all 1s;
+      font-size: 3rem;
+    }
+
+    &:hover &__info {
+      transform: translateY(0);
     }
   }
 }
