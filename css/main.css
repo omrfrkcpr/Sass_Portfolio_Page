@@ -171,7 +171,7 @@
   transition: all 1s;
 }
 .link-style a:hover, footer.middle a:hover, footer.vertical .social-icons a:hover, footer.horizontal a:hover {
-  color: #ff652f;
+  color: #ddc61c;
 }
 
 footer.horizontal {
@@ -231,7 +231,7 @@ footer.middle {
   transition: all 1s;
 }
 .nav__link:hover {
-  color: blue;
+  color: #ddc61c;
   transition-duration: 0.5s;
 }
 .nav__link--active {
