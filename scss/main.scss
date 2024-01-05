@@ -1,0 +1,41 @@
+//* ---------------------------------- */
+//*              MAIN.SCSS             */
+//* ---------------------------------- */
+
+//! @import yerine @use da kullanabiliriz. @import ile kullanirken, yanyana yazabiliriz ancak @import ta tum dosyalarin hepsini import ederken, @use da tek tek yazmamiz lazim dosyalari yani yan yana degil. @use, @import tan farkli olarak sadece degisen dosyalari kaydederek performansta iyilestirme yapar. Buyuk projelerde kesinlikle!!!
+
+//*abstract
+@import "./abstracts/mixins";
+@import "./abstracts/variables";
+//*base
+@import "./base/reset";
+//*pages
+@import "./pages/about";
+@import "./pages/contact";
+@import "./pages/home";
+@import "./pages/project";
+//*components
+@import "./components/footer";
+@import "./components/nav";
+@import "./components/responsive";
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+
+body {
+  font-family: $font-family;
+  color: $text-color;
+  background-color: $primary-color;
+  height: 100vh;
+  line-height: 1;
+}
+
+a {
+  color: $text-color;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 400;
+}
