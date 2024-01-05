@@ -74,12 +74,16 @@
   display: flex;
   flex-wrap: wrap;
   font-size: 1.5rem;
+  margin-top: 5rem;
   align-items: center;
   justify-content: center;
   gap: 2rem;
 }
+.contact__list i {
+  margin-bottom: 1rem;
+}
 .contact .text-secondary {
-  color: #ff652f;
+  color: #ddc61c;
 }
 
 .home-bgImg-container {
