@@ -6,15 +6,15 @@
 
 @include media-xsm {
   .nav {
-    padding: 0.5rem;
+    padding: 0.5rem 0;
     &__list {
       text-align: center;
     }
     &__item {
-      padding-right: 0.7rem;
+      padding-right: 0.3rem;
     }
     .nav__link {
-      font-size: 0.9rem;
+      font-size: 0.8rem;
     }
   }
   .contact {
