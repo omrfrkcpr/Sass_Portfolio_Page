@@ -40,13 +40,11 @@ Sass_Portfolio_Page (folder)
 |----sass-potfolio-page.gif
 ```
 
-## Expected Outcome
+## Outcome
 
 ![sass-portfolio-page](https://github.com/omrfrkcpr/Sass_Portfolio_Page/assets/77440899/59bb069a-168e-44a7-8ac9-f248201b1741)
 
-## Objective
-
-### At the end of the project, following topics are to be covered;
+### At the end of the project, following topics are covered;
 
 - HTML5 / CSS3 / SASS
 
@@ -54,7 +52,7 @@ Sass_Portfolio_Page (folder)
 
 - SASS = @mixin-@include / variables / @extend / ...
 
-### At the end of the project, you will be able to;
+### At the end of the project, will be able to;
 
 - improve coding skills within HTML & CSS inckl. SASS
 
